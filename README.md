@@ -37,6 +37,9 @@ and open your browser at [http://localhost:8888]. If you are asked the token pas
 You should see something like this:
 ![start](https://raw.githubusercontent.com/teamdigitale/pdnd-open-notebooks/master/img/start.png)
 
+Navigate to work/examples and you should see a list of simple examples and tutorial where you can start to understand how it works.
+![examples](https://raw.githubusercontent.com/teamdigitale/pdnd-open-notebooks/master/img/examples.png)
+
 CONGRATULATIONS NOW YOU ARE READY TO CONTRIBUTE.
 
 ### HOW TO CONTRIBUTE
