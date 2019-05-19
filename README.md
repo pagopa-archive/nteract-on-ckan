@@ -40,4 +40,43 @@ You should see something like this:
 CONGRATULATIONS NOW YOU ARE READY TO CONTRIBUTE.
 
 ### HOW TO CONTRIBUTE
-....
+Never made an open source contribution before?
+
+
+1.  Fork this repository to your local GitHub organization.
+
+2.  Clone the repository to your local machine using:
+
+```
+$ git clone https://github.com/github-username/repository-name.git
+```
+
+3.  Install the image as in the steps described above
+
+5.  Create a new branch for your new notebook using:
+
+```
+$ git checkout -b branch-name-here
+```
+
+6.  Create a new analysis with one of the kernel on some public data provided by the platform
+
+7.  Add and commit the changed files using `git add` and `git commit`.
+
+8. Push the changes to the remote repository using:
+
+```
+$ git push origin branch-name-here
+```
+
+9. Submit a pull request to the upstream repository.
+
+10. Title the pull request per the requirements outlined in the section below.
+
+11. Set the description of the pull request with a brief description of what you did and any questions you might have about what you did.
+
+12. Wait for the pull request to be reviewed by a maintainer.
+
+13. Make changes to the pull request if the reviewing maintainer recommends them.
+
+14. Celebrate your success after your pull request is merged! :tada:
