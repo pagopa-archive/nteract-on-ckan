@@ -51,15 +51,15 @@ Never made an open source contribution before?
 $ git clone https://github.com/github-username/repository-name.git
 ```
 
-3.  Install the image as in the steps described above
+3.  Install the image and launch as in the steps described [above](https://github.com/teamdigitale/pdnd-open-notebooks)
 
-5.  Create a new branch for your new notebook using:
+5.  Create a new branch for your new analyses using:
 
 ```
 $ git checkout -b branch-name-here
 ```
 
-6.  Create a new analysis with one of the kernel on some public data provided by the platform
+6.  Create a new analysis on some public data provided by the platform
 
 7.  Add and commit the changed files using `git add` and `git commit`.
 
