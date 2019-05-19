@@ -20,11 +20,11 @@ This repo contains a set of notebooks devoloped using [pdnd-nteract](https://git
 
 [Docker]([https://www.docker.com/](https://www.docker.com/)) MUST be installed on your local machine
 
-TODO change image with the datascience one
+TODO change image with the datascience 
 From [dockerhub](https://hub.docker.com/r/teamdigitale/daf-nteract)
 
 ```
-git clone THIS_REPO
+git clone git@github.com:teamdigitale/pdnd-open-notebooks.git
 cd pdnd-open-notebooks
 docker pull teamdigitale/daf-nteract
 docker run -p 8888:8888 -v "$PWD":/home/jovyan/work daf-nteract
@@ -35,3 +35,8 @@ and open your browser at [http://localhost:8888]. If you are asked the token pas
 
 You should see something like this:
 ![start](https://raw.githubusercontent.com/teamdigitale/pdnd-open-notebooks/master/img/start.png)
+
+CONGRATULATIONS NOW YOU ARE READY TO CONTRIBUTE.
+
+### HOW TO CONTRIBUTE
+....
