@@ -53,8 +53,12 @@ Never made an open source contribution before?
 ```
 $ git clone https://github.com/github-username/repository-name.git
 ```
+3. Set the upstream repository by
+```
+$ git remote add upstream git@github.com:teamdigitale/pdnd-open-notebooks.git
+```
 
-3.  Install the image and launch as in the steps described [above](https://github.com/teamdigitale/pdnd-open-notebooks)
+4.  Install the image and launch as in the steps described [above](https://github.com/teamdigitale/pdnd-open-notebooks)
 
 5.  Create a new branch for your new analyses using:
 
