@@ -12,7 +12,7 @@ This repo contains a set of notebooks devoloped using [pdnd-nteract](https://git
 [Pdnd-nteract](https://github.com/teamdigitale/daf-nteract) is a customisation of [nteract](https://nteract.io/) that allows users registered into the [pdnd](https://dataportal.daf.teamdigitale.it/) to search and load datasets into the notebook from about 7000 italians public datasets. If you want to know more about the project you can start from [here](https://github.com/teamdigitale/daf-nteract).  Some material to understand how it works can be:
 
  - TODO Medium post still draft
- - [Video tutorial]([https://www.youtube.com/watch?v=nlZnYcz66YE](https://www.youtube.com/watch?v=nlZnYcz66YE)
+ - [Video tutorial](https://www.youtube.com/watch?v=nlZnYcz66YE)
  - [Tutorial](open-notebooks-example/tutorial.ipynb) in this repo
  - [Examples](open-notebooks-example/) in this repo
 
