@@ -34,4 +34,4 @@ http://(b4fd9e3ef290 or 127.0.0.1):8888/?token=XXXXXXXXXXXXXX
 and open your browser at [http://localhost:8888]. If you are asked the token paste it.
 
 You should see something like this:
-![start](https://raw.githubusercontent.com/teamdigitale/pdnd-open-notebooks/img/start.png)
+![start](https://raw.githubusercontent.com/teamdigitale/pdnd-open-notebooks/master/img/start.png)
