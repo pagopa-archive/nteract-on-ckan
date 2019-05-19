@@ -21,6 +21,7 @@ This repo contains a set of notebooks devoloped using [pdnd-nteract](https://git
 [Docker](https://www.docker.com/) MUST be installed on your local machine
 
 TODO change image with the datascience 
+
 From [dockerhub](https://hub.docker.com/r/teamdigitale/daf-nteract)
 
 ```
