@@ -11,7 +11,7 @@ This repo contains a set of notebooks devoloped using [pdnd-nteract](https://git
 
 [Pdnd-nteract](https://github.com/teamdigitale/daf-nteract) is a customisation of [nteract](https://nteract.io/) that allows users registered into the [pdnd](https://dataportal.daf.teamdigitale.it/) to search and load datasets into the notebook from about 7000 italians public datasets. If you want to know more about the project you can start from [here](https://github.com/teamdigitale/daf-nteract).  Some material to understand how it works can be:
 
- - TODO Medium post still draft
+ - [Medium post](https://medium.com/@giuxale/pdnd-and-nteract-3de3a7da5717)
  - [Video tutorial](https://www.youtube.com/watch?v=nlZnYcz66YE)
  - [Tutorial](open-notebooks-example/tutorial.ipynb) in this repo
  - [Examples](open-notebooks-example/) in this repo
@@ -22,13 +22,13 @@ This repo contains a set of notebooks devoloped using [pdnd-nteract](https://git
 
 TODO change image with the datascience 
 
-From [dockerhub](https://hub.docker.com/r/teamdigitale/daf-nteract)
+From [dockerhub](https://hub.docker.com/r/teamdigitale/pdnd-datascience)
 
 ```
 git clone git@github.com:teamdigitale/pdnd-open-notebooks.git
 cd pdnd-open-notebooks
-docker pull teamdigitale/daf-nteract
-docker run -p 8888:8888 -v "$PWD":/home/jovyan/work daf-nteract
+docker pull teamdigitale/pdnd-datascience
+docker run -p 8888:8888 -v "$PWD":/home/jovyan/work pdnd-datascience
 ```
 Save the token from the output of your console as:
 http://(b4fd9e3ef290 or 127.0.0.1):8888/?token=XXXXXXXXXXXXXX
