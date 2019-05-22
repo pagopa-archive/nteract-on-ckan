@@ -28,7 +28,7 @@ From [dockerhub](https://hub.docker.com/r/teamdigitale/pdnd-datascience)
 git clone git@github.com:teamdigitale/pdnd-open-notebooks.git
 cd pdnd-open-notebooks
 docker pull teamdigitale/pdnd-datascience
-docker run -p 8888:8888 -v "$PWD":/home/jovyan/work pdnd-datascience
+docker run -p 8888:8888 -v "$PWD":/home/jovyan/work teamdigitale/pdnd-datascience
 ```
 Save the token from the output of your console as:
 http://(b4fd9e3ef290 or 127.0.0.1):8888/?token=XXXXXXXXXXXXXX
