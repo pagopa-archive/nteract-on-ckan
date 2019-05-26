@@ -1,5 +1,6 @@
 name: example-environment
 channels:
+  - default
   - conda-forge
 dependencies:
   - numpy
@@ -12,3 +13,10 @@ dependencies:
   - bokeh
   - dask
   - requests
+  - plotly
+  - seaborn
+  - traitlets
+  - vega_datasets
+  - pip:
+    - dx
+    - vdom
