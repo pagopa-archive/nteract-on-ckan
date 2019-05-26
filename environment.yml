@@ -1,6 +1,6 @@
 name: example-environment
 channels:
-  - default
+  - defaults
   - conda-forge
 dependencies:
   - numpy
