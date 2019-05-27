@@ -41,7 +41,7 @@ Navigate to work/examples and you should see a list of simple examples and tutor
 
 ### Examples
 
-- List of examples on ![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teamdigitale/pdnd-open-notebooks/master?urlpath=%2Fnteract%2Fedit)
+- List of examples on ![Binder(https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teamdigitale/pdnd-open-notebooks/master?urlpath=%2Fnteract%2Fedit)
 
 CONGRATULATIONS NOW YOU ARE READY TO CONTRIBUTE.
 
