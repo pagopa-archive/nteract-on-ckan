@@ -16,6 +16,12 @@ This repo contains a set of notebooks devoloped using [pdnd-nteract](https://git
  - [Tutorial](open-notebooks-example/tutorial.ipynb) in this repo
  - [Examples](open-notebooks-example/) in this repo
 
+ ### Examples open on binder
+
+- List of examples on [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teamdigitale/pdnd-open-notebooks/master?urlpath=%2Fnteract%2Fedit)
+
+
+
 ### GETTING STARTED
 
 [Docker](https://www.docker.com/) MUST be installed on your local machine
@@ -39,9 +45,6 @@ You should see something like this:
 Navigate to work/examples and you should see a list of simple examples and tutorial where you can start to understand how it works.
 ![examples](https://raw.githubusercontent.com/teamdigitale/pdnd-open-notebooks/master/img/examples.png)
 
-### Examples
-
-- List of examples on ![Binder(https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teamdigitale/pdnd-open-notebooks/master?urlpath=%2Fnteract%2Fedit)
 
 CONGRATULATIONS NOW YOU ARE READY TO CONTRIBUTE.
 
