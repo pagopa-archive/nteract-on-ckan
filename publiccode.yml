@@ -1,0 +1,130 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+releaseDate: '2019-05-31'
+name: PDND Open Notebooks
+url: 'https://github.com/teamdigitale/pdnd-open-notebooks'
+isBasedOn: 'https://github.com/teamdigitale/daf-nteract'
+landingURL: 'https://github.com/teamdigitale/pdnd-open-notebooks/blob/master/README.md'
+softwareVersion: false
+developmentStatus: beta
+softwareType: standalone/web
+platforms:
+  - web
+roadmap: 'https://github.com/teamdigitale/daf-nteract/projects/1'
+categories:
+  - data-analytics
+  - data-visualization
+  - productivity-suite
+dependsOn:
+  open:
+    - name: PDND nteract
+      versionMin: v0.12.3.1
+      optional: true
+maintenance:
+  type: community
+  contacts:
+    - name: Alessandro Ercolani
+      affiliation: Team per la Trasformazione Digitale
+      email: alessandro@teamdigitale.governo.it
+legal:
+  license: BSD-3-Clause
+  mainCopyrightOwner: nteract contributors
+  repoOwner: Team per la Trasformazione Digitale
+  authorsFile: 'https://github.com/teamdigitale/pdnd-open-notebooks/blob/master/AUTHORS'
+intendedAudience:
+  scope:
+    - research
+    - science-and-technology
+  countries:
+    - it
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - en
+it:
+  countryExtensionVersion: '0.2'
+description:
+  it:
+    genericName: Jupyter notebook
+    shortDescription: >-
+      Data science avanzata grazie a Jupiter notebook interfacciati direttamente
+      agli open data italiani: condividili con la comunità!
+    longDescription: >
+      La [Piattaforma Digitale Nazionale dei
+      Dati](https://dataportal.daf.teamdigitale.it/) (ex DAF) contiene migliaia
+      di dataset rilasciati dalle pubbliche amministrazioni italiane con licenze
+      open data. Il progetto
+      [PDND-nteract](https://github.com/teamdigitale/daf-nteract) integra le API
+      della PDND all'interno della suite di analisi dati
+      [Jupyter](https://jupyter.org/) grazie al progetto open source
+      [nteract](https://nteract.io/) di cui è un'estensione. Questo repository
+      contiene notebook di analisi liberamente consultabili e riutilizzabili
+      grazie a una versione dockerizzata per la data science rilasciata dal
+      progetto Jupyter. Ambienti di sviluppo supportati: **Python3**, **R** e
+      **Julia**. Per approfondire lo stack tecnologico leggi
+      [qui](https://jupyter-docker-stacks.readthedocs.io/en/latest/). Per
+      scoprire il progetto PDND-nteract puoi cominciare da
+      [qui](https://github.com/teamdigitale/daf-nteract).
+
+
+      ​
+    documentation: >-
+      https://github.com/teamdigitale/pdnd-open-notebooks/blob/master/open-notebooks-example/tutorial.ipynb
+    apiDocumentation: >-
+      https://docs.italia.it/italia/daf/daf-dataportal-it-docs/it/bozza/dataportal-privato/api.html
+    features:
+      - data science
+      - data analysis
+    screenshots:
+      - >-
+        https://raw.githubusercontent.com/teamdigitale/nteract/daf-develop/pdnd-tutorials/img/login.png
+      - >-
+        https://raw.githubusercontent.com/teamdigitale/nteract/daf-develop/pdnd-tutorials/img/search.png
+      - >-
+        https://raw.githubusercontent.com/teamdigitale/nteract/daf-develop/pdnd-tutorials/img/results.png
+    videos:
+      - 'https://www.youtube.com/watch?v=nlZnYcz66YE'
+  en:
+    localisedName: false
+    genericName: Jupyter notebook
+    shortDescription: >-
+      Advanced data science on Italian open data using Jupyter notebooks: share
+      yours!
+    longDescription: >
+      [PDND-nteract](https://github.com/teamdigitale/daf-nteract) is a
+      customisation of [nteract](https://nteract.io/) that allows users
+      registered into the [PDND](https://dataportal.daf.teamdigitale.it/) to
+      search and load datasets into the notebook from about 7000 italians public
+      datasets. This repo contains a set of notebooks devoloped using
+      [pdnd-nteract](https://github.com/teamdigitale/daf-nteract) on top of a
+      [datascience docker
+      image](https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook)
+      provided by [jupyter project](https://jupyter.org/). The image contains a
+      ready to use datascience environment with the most used datascience
+      libraries for **python3**, **R**, and **Julia**. If you want to deepen
+      about the set of libraries you can read
+      [this](https://jupyter-docker-stacks.readthedocs.io/en/latest/). If you
+      want to know more about the project you can start from
+      [here](https://github.com/teamdigitale/daf-nteract).
+    documentation: >-
+      https://github.com/teamdigitale/pdnd-open-notebooks/blob/master/open-notebooks-example/tutorial.ipynb
+    apiDocumentation: >-
+      https://docs.italia.it/italia/daf/daf-dataportal-it-docs/it/bozza/dataportal-privato/api.html
+    features:
+      - data science
+      - data analysis
+    screenshots:
+      - >-
+        https://raw.githubusercontent.com/teamdigitale/nteract/daf-develop/pdnd-tutorials/img/login.png
+      - >-
+        https://raw.githubusercontent.com/teamdigitale/nteract/daf-develop/pdnd-tutorials/img/search.png
+      - >-
+        https://raw.githubusercontent.com/teamdigitale/nteract/daf-develop/pdnd-tutorials/img/results.png
+    videos:
+      - 'https://www.youtube.com/watch?v=nlZnYcz66YE'
+outputTypes:
+  - jupyter notebooks
+applicationSuite: PDND nteract
