@@ -8,7 +8,6 @@ name: PDND Open Notebooks
 url: 'https://github.com/teamdigitale/pdnd-open-notebooks'
 isBasedOn: 'https://github.com/teamdigitale/daf-nteract'
 landingURL: 'https://github.com/teamdigitale/pdnd-open-notebooks/blob/master/README.md'
-softwareVersion: false
 developmentStatus: beta
 softwareType: standalone/web
 platforms:
@@ -88,7 +87,6 @@ description:
     videos:
       - 'https://www.youtube.com/watch?v=nlZnYcz66YE'
   en:
-    localisedName: false
     genericName: Jupyter notebook
     shortDescription: >-
       Advanced data science on Italian open data using Jupyter notebooks: share
@@ -125,6 +123,4 @@ description:
         https://raw.githubusercontent.com/teamdigitale/nteract/daf-develop/pdnd-tutorials/img/results.png
     videos:
       - 'https://www.youtube.com/watch?v=nlZnYcz66YE'
-outputTypes:
-  - jupyter notebooks
 applicationSuite: PDND nteract
