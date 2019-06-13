@@ -79,13 +79,13 @@ description:
       - data analysis
     screenshots:
       - >-
-        https://raw.githubusercontent.com/teamdigitale/pdnd-open-notebooks/master/img/start.png
+        img/start.png
       - >-
-        https://raw.githubusercontent.com/teamdigitale/pdnd-open-notebooks/master/img/elections-bar.png
+        img/elections-bar.png
       - >-
-        https://raw.githubusercontent.com/teamdigitale/pdnd-open-notebooks/master/img/elections-2019.png
+        img/elections-2019.png
       - >-
-        https://raw.githubusercontent.com/teamdigitale/pdnd-open-notebooks/master/img/r.png
+        img/r.png
     videos:
       - 'https://www.youtube.com/watch?v=nlZnYcz66YE'
   en:
@@ -118,11 +118,13 @@ description:
       - data analysis
     screenshots:
       - >-
-        https://raw.githubusercontent.com/teamdigitale/nteract/daf-develop/pdnd-tutorials/img/login.png
+        img/start.png
       - >-
-        https://raw.githubusercontent.com/teamdigitale/nteract/daf-develop/pdnd-tutorials/img/search.png
+        img/elections-bar.png
       - >-
-        https://raw.githubusercontent.com/teamdigitale/nteract/daf-develop/pdnd-tutorials/img/results.png
+        img/elections-2019.png
+      - >-
+        img/r.png
     videos:
       - 'https://www.youtube.com/watch?v=nlZnYcz66YE'
 applicationSuite: PDND nteract
