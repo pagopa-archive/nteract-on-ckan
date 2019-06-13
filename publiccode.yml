@@ -79,11 +79,13 @@ description:
       - data analysis
     screenshots:
       - >-
-        https://raw.githubusercontent.com/teamdigitale/nteract/daf-develop/pdnd-tutorials/img/login.png
+        https://raw.githubusercontent.com/teamdigitale/pdnd-open-notebooks/master/img/start.png
       - >-
-        https://raw.githubusercontent.com/teamdigitale/nteract/daf-develop/pdnd-tutorials/img/search.png
+        https://raw.githubusercontent.com/teamdigitale/pdnd-open-notebooks/master/img/elections-bar.png
       - >-
-        https://raw.githubusercontent.com/teamdigitale/nteract/daf-develop/pdnd-tutorials/img/results.png
+        https://raw.githubusercontent.com/teamdigitale/pdnd-open-notebooks/master/img/elections-2019.png
+      - >-
+        https://raw.githubusercontent.com/teamdigitale/pdnd-open-notebooks/master/img/r.png
     videos:
       - 'https://www.youtube.com/watch?v=nlZnYcz66YE'
   en:
