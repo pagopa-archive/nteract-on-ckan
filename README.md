@@ -1,31 +1,32 @@
-
-# pdnd-open-notebooks
-
-  
+# nteract-on-ckan
 
 ### INFO
 
-  
+nteract-on-ckan is a [customized version](https://github.com/teamdigitale/daf-nteract) - fork of [nteract](https://nteract.io/) - that
+queries [ckan](https://ckan.org/) api throught [api server](https://github.com/teamdigitale/pdnd-openapi-server) that exposes openapi specifications.
 
-This repo contains a set of notebooks devoloped using [pdnd-nteract](https://github.com/teamdigitale/daf-nteract) on top of a [datascience docker image](https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook) provided by [jupyter project](https://jupyter.org/). The image contains a ready to use datascience environment with the most used datascience libraries for **python3**, **R**, and **Julia**. If you want to deepen about the set of libraries you can read [this](https://jupyter-docker-stacks.readthedocs.io/en/latest/). 
+This repo contains the instractions for running a working environment via docker compose and a set of notebooks and tutorials.
 
-[Pdnd-nteract](https://github.com/teamdigitale/daf-nteract) is a customisation of [nteract](https://nteract.io/) that allows users registered into the [pdnd](https://dataportal.daf.teamdigitale.it/) to search and load datasets into the notebook from about 7000 italians public datasets. If you want to know more about the project you can start from [here](https://github.com/teamdigitale/daf-nteract).  Some material to understand how it works can be:
+- instructions
+- tutorials
+- examples
 
- - [Medium post](https://blog.nteract.io/creating-a-platform-for-querying-open-datasets-with-pdnd-nteract-6ac8107828f7)
- - [Video tutorial](https://www.youtube.com/watch?v=nlZnYcz66YE)
- - [Tutorial](open-notebooks-example/tutorial.ipynb) in this repo
- - [Examples](open-notebooks-example/) in this repo
+It runs also a [datascience docker image](https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook) provided by [jupyter project](https://jupyter.org/). The image contains a ready to use datascience environment with the most used datascience libraries for **python3**, **R**, and **Julia**. If you want to deepen about the set of libraries you can read [this](https://jupyter-docker-stacks.readthedocs.io/en/latest/).
 
- ### Examples open on binder
+[Pdnd-nteract](https://github.com/teamdigitale/daf-nteract) is a customisation of [nteract](https://nteract.io/) that allows users registered into the [pdnd](https://dataportal.daf.teamdigitale.it/) to search and load datasets into the notebook from about 7000 italians public datasets. If you want to know more about the project you can start from [here](https://github.com/teamdigitale/daf-nteract). Some material to understand how it works can be:
+
+- [Medium post](https://blog.nteract.io/creating-a-platform-for-querying-open-datasets-with-pdnd-nteract-6ac8107828f7)
+- [Video tutorial](https://www.youtube.com/watch?v=nlZnYcz66YE)
+- [Tutorial](notebooks-example/tutorial.ipynb) in this repo
+- [Examples](notebooks-example/) in this repo
+
+### Examples open on binder
 
 - List of examples on [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teamdigitale/pdnd-open-notebooks/master?urlpath=%2Fnteract%2Fedit)
-
-
 
 ### GETTING STARTED
 
 [Docker](https://www.docker.com/) MUST be installed on your local machine
-
 
 From [dockerhub](https://hub.docker.com/r/teamdigitale/pdnd-datascience)
 
@@ -35,6 +36,7 @@ cd pdnd-open-notebooks
 docker pull teamdigitale/pdnd-datascience
 docker run -p 8888:8888 -v "$PWD":/home/jovyan/work teamdigitale/pdnd-datascience
 ```
+
 Save the token from the output of your console as:
 http://(b4fd9e3ef290 or 127.0.0.1):8888/?token=XXXXXXXXXXXXXX
 and open your browser at [http://localhost:8888]. If you are asked the token paste it.
@@ -45,12 +47,11 @@ You should see something like this:
 Navigate to work/examples and you should see a list of simple examples and tutorial where you can start to understand how it works.
 ![examples](https://raw.githubusercontent.com/teamdigitale/pdnd-open-notebooks/master/img/examples.png)
 
-
 CONGRATULATIONS NOW YOU ARE READY TO CONTRIBUTE.
 
 ### HOW TO CONTRIBUTE
-Never made an open source contribution before?
 
+Never made an open source contribution before?
 
 1.  Fork this repository to your local GitHub organization.
 
@@ -59,7 +60,9 @@ Never made an open source contribution before?
 ```
 $ git clone https://github.com/github-username/repository-name.git
 ```
+
 3. Set the upstream repository by
+
 ```
 $ git remote add upstream git@github.com:teamdigitale/pdnd-open-notebooks.git
 ```
@@ -76,7 +79,7 @@ $ git checkout -b branch-name-here
 
 7.  Add and commit the changed files using `git add` and `git commit`.
 
-8. Push the changes to the remote repository using:
+8.  Push the changes to the remote repository using:
 
 ```
 $ git push origin branch-name-here
