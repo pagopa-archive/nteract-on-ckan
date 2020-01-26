@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  nteract-fe:
+    image: giux78/nteract-on-ckan
+    container_name: nteract-fe
+    ports:
+      - 8888:8888/tcp
+    volumes:
+      - ./:/work
+    depends_on:
+      - nteract-be-api
+  nteract-be-api:
+    image: giux78/nteract-on-ckan-api
+    container_name: nteract-be
+    ports:
+      - 8080:8080/tcp

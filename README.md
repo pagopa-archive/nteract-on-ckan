@@ -1,56 +1,62 @@
-
-# pdnd-open-notebooks
-
-  
+# nteract-on-ckan
 
 ### INFO
 
-  
+nteract-on-ckan is a [customized](https://github.com/teamdigitale/daf-nteract) fork of [nteract](https://nteract.io/) that
+queries [ckan](https://ckan.org/) api throught an [api server](https://github.com/teamdigitale/pdnd-openapi-server) that exposes openapi 3 specifications. It enables to search and load about more then 10.000 italian open dataset.
 
-This repo contains a set of notebooks devoloped using [pdnd-nteract](https://github.com/teamdigitale/daf-nteract) on top of a [datascience docker image](https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook) provided by [jupyter project](https://jupyter.org/). The image contains a ready to use datascience environment with the most used datascience libraries for **python3**, **R**, and **Julia**. If you want to deepen about the set of libraries you can read [this](https://jupyter-docker-stacks.readthedocs.io/en/latest/). 
+This repo contains the instractions for launching a working environment via docker compose and contains set of notebooks and tutorials.
 
-[Pdnd-nteract](https://github.com/teamdigitale/daf-nteract) is a customisation of [nteract](https://nteract.io/) that allows users registered into the [pdnd](https://dataportal.daf.teamdigitale.it/) to search and load datasets into the notebook from about 7000 italians public datasets. If you want to know more about the project you can start from [here](https://github.com/teamdigitale/daf-nteract).  Some material to understand how it works can be:
+- [Tutorial](notebooks-example/tutorial.ipynb)
+- [Analyses](notebooks-example/) for example about [mortality by cancer in Italian regions](notebooks-example/italy_mortality.ipynb) or [European election](notebooks-example/eu_elections_2019_italy.ipynb)
 
- - [Medium post](https://blog.nteract.io/creating-a-platform-for-querying-open-datasets-with-pdnd-nteract-6ac8107828f7)
- - [Video tutorial](https://www.youtube.com/watch?v=nlZnYcz66YE)
- - [Tutorial](open-notebooks-example/tutorial.ipynb) in this repo
- - [Examples](open-notebooks-example/) in this repo
+If you are a data scientist try to contribute by using the tools and share your work on this repository by making a PR.
 
- ### Examples open on binder
+### Open on binder
 
-- List of examples on [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teamdigitale/pdnd-open-notebooks/master?urlpath=%2Fnteract%2Fedit)
+- List of examples and analyses on [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teamdigitale/pdnd-open-notebooks/master?urlpath=%2Fnteract%2Fedit)
 
+### Technological stack
 
+The stack is composed of:
+
+- [Pdnd-nteract](https://github.com/teamdigitale/daf-nteract) is a customisation of [nteract](https://nteract.io/).
+- [An api server](https://github.com/teamdigitale/pdnd-openapi-server)
+- [Ckan](https://ckan.dev.pdnd.italia.it/), as metadata store for dataset.
+
+It allows to search among datasets stored on ckan via the search ckan api and load the real data inside the notebook providing a snippet of code for loading
+datasets and creating chart semi-automatically. Can be used to have the first
+approach on notebooks, open data and visualizations.
+
+### Old material it refers on daf / pdnd but the concepts are the same.
+
+- [Medium post](https://blog.nteract.io/creating-a-platform-for-querying-open-datasets-with-pdnd-nteract-6ac8107828f7)
+- [Video tutorial](https://www.youtube.com/watch?v=nlZnYcz66YE)
 
 ### GETTING STARTED
 
 [Docker](https://www.docker.com/) MUST be installed on your local machine
 
-
-From [dockerhub](https://hub.docker.com/r/teamdigitale/pdnd-datascience)
-
 ```
 git clone git@github.com:teamdigitale/pdnd-open-notebooks.git
 cd pdnd-open-notebooks
-docker pull teamdigitale/pdnd-datascience
-docker run -p 8888:8888 -v "$PWD":/home/jovyan/work teamdigitale/pdnd-datascience
+docker-compose up
 ```
+
+It can take some time to download from dockerhub.
+
 Save the token from the output of your console as:
 http://(b4fd9e3ef290 or 127.0.0.1):8888/?token=XXXXXXXXXXXXXX
 and open your browser at [http://localhost:8888]. If you are asked the token paste it.
 
 You should see something like this:
-![start](https://raw.githubusercontent.com/teamdigitale/pdnd-open-notebooks/master/img/start.png)
-
-Navigate to work/examples and you should see a list of simple examples and tutorial where you can start to understand how it works.
-![examples](https://raw.githubusercontent.com/teamdigitale/pdnd-open-notebooks/master/img/examples.png)
-
+![start](https://raw.githubusercontent.com/teamdigitale/pdnd-open-notebooks/master/img/nteract-on-ckan-home.png)
 
 CONGRATULATIONS NOW YOU ARE READY TO CONTRIBUTE.
 
 ### HOW TO CONTRIBUTE
-Never made an open source contribution before?
 
+Never made an open source contribution before?
 
 1.  Fork this repository to your local GitHub organization.
 
@@ -59,7 +65,9 @@ Never made an open source contribution before?
 ```
 $ git clone https://github.com/github-username/repository-name.git
 ```
+
 3. Set the upstream repository by
+
 ```
 $ git remote add upstream git@github.com:teamdigitale/pdnd-open-notebooks.git
 ```
@@ -76,7 +84,7 @@ $ git checkout -b branch-name-here
 
 7.  Add and commit the changed files using `git add` and `git commit`.
 
-8. Push the changes to the remote repository using:
+8.  Push the changes to the remote repository using:
 
 ```
 $ git push origin branch-name-here
