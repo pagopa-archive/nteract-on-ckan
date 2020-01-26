@@ -3,7 +3,7 @@
 ### INFO
 
 nteract-on-ckan is a [customized version](https://github.com/teamdigitale/daf-nteract) - fork of [nteract](https://nteract.io/) - that
-queries [ckan](https://ckan.org/) api throught [api server](https://github.com/teamdigitale/pdnd-openapi-server) that exposes openapi specifications.
+queries [ckan](https://ckan.org/) api throught an [api server](https://github.com/teamdigitale/pdnd-openapi-server) that exposes openapi specifications.
 
 This repo contains the instractions for running a working environment via docker compose and a set of notebooks and tutorials.
 
