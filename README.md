@@ -5,7 +5,7 @@
 nteract-on-ckan is a [customized](https://github.com/teamdigitale/daf-nteract) fork of [nteract](https://nteract.io/) that
 queries [ckan](https://ckan.org/) api throught an [api server](https://github.com/teamdigitale/pdnd-openapi-server) that exposes openapi 3 specifications. It enables to search and load about more then 10.000 italian open dataset.
 
-This repo contains the instractions for launching a working environment via docker compose and contains set of notebooks and tutorials.
+This repo contains the instructions for launching a working environment via docker compose and contains set of notebooks and tutorials.
 
 - [Tutorial](notebooks-example/tutorial.ipynb)
 - [Analyses](notebooks-example/) for example about [mortality by cancer in Italian regions](notebooks-example/italy_mortality.ipynb) or [European election](notebooks-example/eu_elections_2019_italy.ipynb)
