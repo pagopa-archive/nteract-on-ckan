@@ -38,8 +38,8 @@ approach on notebooks, open data and visualizations.
 [Docker](https://www.docker.com/) MUST be installed on your local machine
 
 ```
-git clone git@github.com:teamdigitale/pdnd-open-notebooks.git
-cd pdnd-open-notebooks
+git clone git@github.com:teamdigitale/nteract-on-ckan.git
+cd nteract-on-ckan
 docker-compose up
 ```
 
