@@ -22,7 +22,7 @@ The stack is composed of:
 
 - [Pdnd-nteract](https://github.com/teamdigitale/daf-nteract) is a customisation of [nteract](https://nteract.io/).
 - [An api server](https://github.com/teamdigitale/pdnd-openapi-server)
-- [Ckan](https://ckan.dev.pdnd.italia.it/), as metadata store for dataset.
+- [Ckan](https://data.gov/), as metadata store for dataset.
 
 It allows to search among datasets stored on ckan via the search ckan api and load the real data inside the notebook providing a snippet of code for loading
 datasets and creating chart semi-automatically. Can be used to have the first
