@@ -5,7 +5,7 @@
 nteract-on-ckan is a [customized](https://github.com/teamdigitale/daf-nteract) fork of [nteract](https://nteract.io/) that
 queries [ckan](https://ckan.org/) api throught an [api server](https://github.com/teamdigitale/pdnd-openapi-server) that exposes openapi 3 specifications. It enables to search and load directly from [data.gov](https://data.gov) in your notebook, but can be connected easily with every ckan you want.
 
-This repo contains the instructions for launching a working environment via docker compose and contains set of notebooks and tutorials.
+This repo contains the instructions for launching a working environment via docker compose and contains a set of notebooks and tutorials.
 
 - [Tutorial](notebooks-example/tutorial.ipynb)
 - [Analyses](notebooks-example/) for example about [mortality by cancer in Italian regions](notebooks-example/italy_mortality.ipynb) or [European election](notebooks-example/eu_elections_2019_italy.ipynb)
@@ -14,7 +14,7 @@ If you are a data scientist try to contribute by using the tools and share your 
 
 ### Open on binder
 
-- List of examples and analyses on [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teamdigitale/nterat-on-ckan/master?urlpath=%2Fnteract%2Fedit)
+- List of examples and analyses on [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teamdigitale/nteract-on-ckan-on-ckan/master?urlpath=%2Fnteract%2Fedit)
 
 ### Technological stack
 
