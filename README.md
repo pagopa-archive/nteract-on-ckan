@@ -3,7 +3,7 @@
 ### INFO
 
 nteract-on-ckan is a [customized](https://github.com/teamdigitale/daf-nteract) fork of [nteract](https://nteract.io/) that
-queries [ckan](https://ckan.org/) api throught an [api server](https://github.com/teamdigitale/pdnd-openapi-server) that exposes openapi 3 specifications. It enables to search and load about more then 10.000 italian open dataset.
+queries [ckan](https://ckan.org/) api throught an [api server](https://github.com/teamdigitale/pdnd-openapi-server) that exposes openapi 3 specifications. It enables to search and load directly from [data.gov](https://data.gov) in your notebook, but can be connected easily with every ckan you want.
 
 This repo contains the instructions for launching a working environment via docker compose and contains set of notebooks and tutorials.
 
@@ -14,18 +14,24 @@ If you are a data scientist try to contribute by using the tools and share your 
 
 ### Open on binder
 
-- List of examples and analyses on [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teamdigitale/pdnd-open-notebooks/master?urlpath=%2Fnteract%2Fedit)
+- List of examples and analyses on [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teamdigitale/nterat-on-ckan/master?urlpath=%2Fnteract%2Fedit)
 
 ### Technological stack
 
 The stack is composed of:
 
-- [Pdnd-nteract](https://github.com/teamdigitale/daf-nteract) is a customisation of [nteract](https://nteract.io/).
+- [daf-nteract](https://github.com/teamdigitale/daf-nteract) is a customisation of [nteract](https://nteract.io/).
 - [An api server](https://github.com/teamdigitale/pdnd-openapi-server)
 - [Ckan](https://data.gov/), as metadata store for dataset.
 
-It allows to search among datasets stored on ckan via the search ckan api and load the real data inside the notebook providing a snippet of code for loading
-datasets and creating chart semi-automatically. Can be used to have the first
+With nteract-on-ckan you can:
+
+- search datasets stored on ckan
+  through the api
+- automatically load data by running an autogerated snippet of code with many programming languages
+- creating chart semi-automatically.
+
+Can be used to have the first
 approach on notebooks, open data and visualizations.
 
 ### Old material it refers on daf / pdnd but the concepts are the same.
@@ -50,7 +56,7 @@ http://(b4fd9e3ef290 or 127.0.0.1):8888/?token=XXXXXXXXXXXXXX
 and open your browser at [http://localhost:8888]. If you are asked the token paste it.
 
 You should see something like this:
-![start](https://raw.githubusercontent.com/teamdigitale/pdnd-open-notebooks/master/img/nterat-on-ckan-home.png)
+![start](https://raw.githubusercontent.com/teamdigitale/nterat-on-ckan/master/img/nterat-on-ckan-home.png)
 
 CONGRATULATIONS NOW YOU ARE READY TO CONTRIBUTE.
 
@@ -69,10 +75,10 @@ $ git clone https://github.com/github-username/repository-name.git
 3. Set the upstream repository by
 
 ```
-$ git remote add upstream git@github.com:teamdigitale/pdnd-open-notebooks.git
+$ git remote add upstream git@github.com:teamdigitale/nterat-on-ckan.git
 ```
 
-4.  Install the image and launch as in the steps described [above](https://github.com/teamdigitale/pdnd-open-notebooks)
+4.  Install the image and launch as in the steps described [above](https://github.com/teamdigitale/nterat-on-ckan)
 
 5.  Create a new branch for your new analyses using:
 
